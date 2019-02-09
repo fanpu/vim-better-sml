@@ -1,7 +1,7 @@
 # SML Indentation is broken on so many levels
 ## SML Comments
 ## SML let in end, if then else
-
+Current behavior:
 ```
 fun fact x = 
 let
@@ -10,8 +10,7 @@ in
   y
 end
 ```
-should be changed to: 
-
+New behavior:
 ```
 fun fact x = 
   let
