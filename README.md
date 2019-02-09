@@ -1,5 +1,25 @@
 # SML Indentation is broken on so many levels
 ### SML Comments
+```
+(*
+* Here is a 
+* multiline comment
+*)
+```
+Should be:
+```
+(*
+ * Here is a 
+ * multiline comment
+ *)
+```
+Or: 
+```
+(* Here is a
+ * multiline comment *)
+```
+
+
 ### SML let in end, if then else
 Current:
 ```
