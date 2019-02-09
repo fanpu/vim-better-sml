@@ -1,6 +1,21 @@
 # SML Indentation is broken on so many levels
 ## SML Comments
 ## SML let in end, if then else
+fun fact x = 
+let
+  val y = 2
+in
+  y
+end
+
+should be changed to: 
+
+fun fact x = 
+  let
+    val y = 2
+  in
+    y
+  end
 
 # vim-better-sml
 
