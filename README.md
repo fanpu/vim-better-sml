@@ -27,11 +27,22 @@ Current:
   [ "Bonnie", "Clyde" ] ]     (* : string list list *)
 ```
 New:
-
 ```
 val groups = [ [ "Alice", "Bob" ],
                [ "Huey", "Dewey", "Louie" ],
                [ "Bonnie", "Clyde" ] ]     (* : string list list *)
+```
+
+### Trailing Comments
+Current:
+```
+val more_numbers = 13 :: numbers  (* gives [13, 1, 3, 3, 7, ...] *)
+  val more_groups  = ["Batman","Superman"] :: groups
+```
+New:
+```
+val more_numbers = 13 :: numbers  (* gives [13, 1, 3, 3, 7, ...] *)
+val more_groups  = ["Batman","Superman"] :: groups
 ```
 # vim-better-sml
 
