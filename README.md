@@ -1,6 +1,6 @@
 # SML Indentation is broken on so many levels
 ## SML Comments
-## SML let in end, if else
+## SML let in end, if then else
 
 # vim-better-sml
 
