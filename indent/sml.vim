@@ -12,12 +12,6 @@
 "               2002 Oct 28 - Fixed bug with indentation of ']' (MM)
 "               2002 Oct 22 - Major rewrite (JY)
 
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-let b:did_indent = 1
-
 setlocal expandtab
 setlocal indentexpr=GetSMLIndent()
 setlocal indentkeys+=0=and,0=else,0=end,0=handle,0=if,0=in,0=let,0=local,0=then,0=val,0=fun,0=of,0=\|,0=*),0)
