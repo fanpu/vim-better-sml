@@ -1,15 +1,13 @@
 # SML Indentation is broken on so many levels
 ### SML Comments
 ```
-(*
-* Here is a 
+(* Here is a 
 * multiline comment
 *)
 ```
 Should be:
 ```
-(*
- * Here is a 
+(* Here is a 
  * multiline comment
  *)
 ```
