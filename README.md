@@ -1,7 +1,7 @@
 # SML Indentation is broken on so many levels
-## SML Comments
-## SML let in end, if then else
-Current behavior:
+### SML Comments
+### SML let in end, if then else
+Current:
 ```
 fun fact x = 
 let
@@ -10,7 +10,7 @@ in
   y
 end
 ```
-New behavior:
+New:
 ```
 fun fact x = 
   let
@@ -19,7 +19,19 @@ fun fact x =
     y
   end
 ```
-
+### Lists of lists
+Current:
+```
+val groups = [ [ "Alice", "Bob" ],
+               [ "Huey", "Dewey", "Louie" ],
+               [ "Bonnie", "Clyde" ] ]     (* : string list list *)
+```
+New:
+```
+  val groups = [ [ "Alice", "Bob" ],
+  [ "Huey", "Dewey", "Louie" ],
+  [ "Bonnie", "Clyde" ] ]     (* : string list list *)
+```
 # vim-better-sml
 
 > A complete interactive development environment for Standard ML
