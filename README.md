@@ -22,15 +22,16 @@ fun fact x =
 ### Lists of lists
 Current:
 ```
-val groups = [ [ "Alice", "Bob" ],
-               [ "Huey", "Dewey", "Louie" ],
-               [ "Bonnie", "Clyde" ] ]     (* : string list list *)
-```
-New:
-```
   val groups = [ [ "Alice", "Bob" ],
   [ "Huey", "Dewey", "Louie" ],
   [ "Bonnie", "Clyde" ] ]     (* : string list list *)
+```
+New:
+
+```
+val groups = [ [ "Alice", "Bob" ],
+               [ "Huey", "Dewey", "Louie" ],
+               [ "Bonnie", "Clyde" ] ]     (* : string list list *)
 ```
 # vim-better-sml
 
