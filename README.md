@@ -1,6 +1,7 @@
 # SML Indentation is broken on so many levels
 ## SML Comments
 ## SML let in end, if then else
+
 ```
 fun fact x = 
 let
@@ -8,9 +9,10 @@ let
 in
   y
 end
-
+```
 should be changed to: 
 
+```
 fun fact x = 
   let
     val y = 2
@@ -18,6 +20,7 @@ fun fact x =
     y
   end
 ```
+
 # vim-better-sml
 
 > A complete interactive development environment for Standard ML
